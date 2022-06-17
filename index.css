@@ -18,7 +18,7 @@ body{
 a{
   text-decoration: none;
   font-size: 28px;
-  margin: auto 35px;
+  margin: auto 30px;
   padding-left: 20px;
   color: #626262;
 }
@@ -30,7 +30,7 @@ a{
   background-color: white;
   box-shadow: 5px 5px 20px #879c81;
   width: 95%;
-  height: 35vh;
+  height: 30vh;
 }
 
 .About-Image{
@@ -66,7 +66,7 @@ a{
   background-color: white;
   box-shadow: 5px 5px 20px #879c81;
   width: 95%;
-  height: 45vh;
+  height: 35vh;
 }
 
 .Book-shop-Logo{
@@ -92,7 +92,7 @@ a{
   background-color: white;
   box-shadow: 5px 5px 20px #879c81;
   width: 95%;
-  height: 60vh;
+  height: 45vh;
 }
 
 .Qotabi-Logo{
@@ -137,7 +137,7 @@ a{
   background-color: white;
   box-shadow: 5px 5px 20px #879c81;
   width: 95%;
-  height: 27vh;
+  height: 20vh;
 }
 
 .Contact-Me-Text{
