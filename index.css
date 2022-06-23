@@ -1,163 +1,112 @@
 body{
-  margin: 0;
-  padding: 0;
   background-color: #D3EBCD;
 }
 
-.Top-Container{
-  border: solid 1px #bad1b4;
-  border-radius: 25px;
-  margin: 20px auto 0;
-  padding-top: 25px;
-  background-color: white;
-  box-shadow: 5px 5px 20px #879c81;
-  width: 95%;
-  height: 60px;
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-a{
-  text-decoration: none;
-  font-size: 28px;
-  margin: auto 30px;
-  padding-left: 20px;
-  color: #626262;
+span{
+  font-weight: bold;
 }
 
-#About-Container{
-  border: solid 1px #bad1b4;
-  border-radius: 25px;
-  margin: 80px auto 0;
-  background-color: white;
-  box-shadow: 5px 5px 20px #879c81;
-  width: 95%;
-  height: 35vh;
+
+.social{
+  width: 80px;
+  margin: 30px 80px;
+}
+
+
+
+#title{
+  background-color: #2C394B;
+}
+
+#Amed{
+  font-size: 2rem;
+}
+
+
+#About-Me{
+border-bottom: solid 8px #2C394B;
+border-radius: 20px;
+}
+
+#About-Me:hover{
+border-bottom: solid 8px #2C394B;
+border-radius: 20px;
+background: white;
+}
+
+
+.container-fluid{
+  padding: 3% 8%;
+  font-size: 20px;
 }
 
 .About-Image{
-  float: left;
-  border-radius: 50%;
-  width: 150px;
-  margin: 20px 0 30px 20px;
+  margin-left: 80px;
+  width: 250px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 
-.Name{
-  font-size: 50px;
-  text-align: right;
-  color: black;
-  margin-right: 20px;
-  margin: 80px 20px -20px 0;
-  font-weight: normal;
+
+
+#Pertokxana-gishtiya-kurdi{
+  border-bottom: solid 8px #2C394B;
+  border-radius: 20px;
 }
 
-.About-p{
-  clear: left;
-  color: black;
-  font-weight: normal;
-  font-size: 45px;
-  text-align: right;
-  margin-right: 20px;
-  font-family:  sans-serif;
+#Pertokxana-gishtiya-kurdi:hover{
+  border-bottom: solid 8px #2C394B;
+  border-radius: 20px;
+  background: white;
 }
-
-#Cooming-Soon{
-  border: solid 1px #bad1b4;
-  border-radius: 25px;
-  margin: 80px auto 0;
-  background-color: white;
-  box-shadow: 5px 5px 20px #879c81;
-  width: 95%;
-  height: 40vh;
-}
-
 .Book-shop-Logo{
-  width: 350px;
-  position: relative;
-  margin-left: 600px;
-  margin-bottom: -40px;
+  margin-top: 60px;
+  width: 450px;
 }
 
-.About-Book-shop{
-  color: black;
-  font-weight: normal;
-  font-size: 45px;
-  text-align: right;
-  margin-right: 20px;
-  font-family:  sans-serif;
-}
 
 #Qotabi{
-  border: solid 1px #bad1b4;
-  border-radius: 25px;
-  margin: 80px auto 40px;
-  background-color: white;
-  box-shadow: 5px 5px 20px #879c81;
-  width: 95%;
-  height: 49vh;
+  border-bottom: solid 8px #2C394B;
+  border-radius: 20px;
 }
 
+#Qotabi:hover{
+  border-bottom: solid 8px #2C394B;
+  border-radius: 20px;
+  background: white;
+}
 
 .Qotabi-Logo{
   width: 200px;
-  position: relative;
-  margin-left: 10px;
-  margin-bottom: -40px;
-}
-
-.Qotabi-Name{
-  font-size: 50px;
-  text-align: right;
-  color: black;
-  margin-right: 20px;
-  margin: -70px 20px -20px 0;
-  font-weight: normal;
-}
-
-.Qotabi-Name-Text{
-  font-size: 50px;
-  text-align: right;
-  color: black;
-  margin-right: 20px;
-  margin: 0px 20px -70px 0;
-  font-weight: normal;
-}
-
-.About-Qotabi{
-  color: black;
-  font-weight: normal;
-  font-size: 45px;
-  text-align: right;
-  margin-right: 20px;
-  font-family:  sans-serif;
 }
 
 .Qotabi-Link{
+  width: 180px;
+  margin-left: 25px;
   text-decoration: none;
   font-size: 28px;
   color: #626262;
 }
 
+.Qotabi-Link:hover{
+  text-decoration: none;
+  font-size: 28px;
+  color: black;
+}
+
+
 
 #Contact-Me{
-  text-align: center;
-  border: solid 1px #bad1b4;
-  border-radius: 25px;
-  margin: 40px auto 80px;
-  background-color: white;
-  box-shadow: 5px 5px 20px #879c81;
-  width: 95%;
-  height: 20vh;
+  margin-bottom: 20px;
 }
 
-.Contact-Me-Text{
-  color: black;
-  font-weight: normal;
-  font-size: 45px;
-  text-align: center;
-  margin-right: 20px;
-  font-family:  sans-serif;
-}
-
-img{
-  width: 80px;
-  margin: 30px auto;
+#Contact-Me:hover{
+  background:white;
 }
