@@ -1,0 +1,101 @@
+<!-- Created by Quame Lincoln -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amed Berzinar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <a href="" class="logo">Amed</a>
+      <div class="navigation">
+        <div class="nav-items">
+          <i class="uil uil-times nav-close-btn"></i>
+          <a href="#home"><i class="uil uil-home"></i> Home</a>
+          <a href="#about"><i class="uil uil-compass"></i> Derbarey min</a>
+          <a href="#library"><i class="uil uil-info-circle"></i> Petokxana gishtiya kurdi</a>
+          <a href="#qotabi"><i class="uil uil-document-layout-left"></i> Qotabi</a>
+          <a href="#contact"><i class="uil uil-envelope"></i> Contact</a>
+        </div>
+      </div>
+      <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+    <div class="scroll-indicator-container">
+      <div class="scroll-indicator-bar"></div>
+    </div>
+  </header>
+
+  <section id="home">
+    <h1>Amed</h1>
+  </section>
+
+  <section id="about">
+    <h1>ناڤێ من ئامەدە</h1>
+    <img src="images/Amed.jpg">
+    <p>
+      ئەز قوتابیمە ل بەشێ زانستێن کومپیوتەری ل زانکویا دهوک، من گەلەک حەز لسەر دروستکرن و دیزاین کرنا مالپەران هەیە، و الحمدلله یێ باشم د دیزاین و دروستکرنێ دا، سوپاس بو خاندنا ئەڤێ </p>
+  </section>
+
+  <section id="library">
+    <img src="images/White-Logo.png">
+    <p>
+      ل ڤان نێزیکان پەرتووکخانا گشتیا کوردی دێ بەردەست بیت، ئەڤ مالپەرە دێ هاریکاریا خواندەڤانان کەت کو بشێن کورتکرنا پەرتوکان بشێوەکێ جوان و ب ساناهی بخوینن، کو پێدڤی ناکەت سەرەدانا پەرتووکخانێ بکەت داکو پەرتووکەکا ب دلێ خو بدەست ڤە بینیت بەلکو دێ ل
+      مال لسەر مالپەرێ پەرتووکخانا گشتیا کوردی کورتکرنا پەرتووکێ بدەست خوڤە ئینیت
+    </p>
+  </section>
+
+  <section id="qotabi">
+    <h1>ئەکادیمیا قوتابی</h1>
+    <img src="images/Qotabi.png">
+    <a href="https://qotabi.com/">Qotabi.com</a>
+    <h2>خاندن چەکەکە هەردەم بەرهەمێ وێ پێشکەفتنە</h2>
+    <p>
+      دناڤ مالپەرێ قوتابی دا کو تایبەتە بو قوتابیێن پولا دوازدێ، تو دشێی بشێوەکێ سەردەمانە و پێشکەفتی بابەتێن پولا دوازدێ ب ئونلاین بخینی بێی بەرامبەر بێ کو سەرەدانا چ کورسان بکەی، هەتا نوکە بابەتێ زمانێ ئینگلیزی یێ بەردەستە بەس انشاءالله ب پشتەڤانیا
+      خودایێ مەزن دێ هەمی بابەت و دگەل پرسیارێ ویزاری بەردەست بن
+    </p>
+  </section>
+
+  <section id="contact">
+    <a href="https://www.instagram.com/amed_berzinar/"><img class="social-img" src="images/instagram.png"></a>
+    <a href="https://www.snapchat.com/add/amadbarznary?share_id=xq8SsZju_Y8&locale=en-US"><img class="social-img" src="images/snapchat.png"></a>
+    <a href="https://www.youtube.com/channel/UCA0mi21Rw8bYRsl-GDrX8bQ"><img class="social-img" src="images/youtube.png"></a>
+  </section>
+
+
+  <script>
+    //Javacript for the scroll indicator bar
+    window.addEventListener("scroll", () => {
+      const indicatorBar = document.querySelector(".scroll-indicator-bar");
+
+      const pageScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollValue = (pageScroll / height) * 100;
+
+      indicatorBar.style.width = scrollValue + "%";
+    });
+
+    //Responsive navigation menu toggle
+    const menuBtn = document.querySelector(".nav-menu-btn");
+    const closeBtn = document.querySelector(".nav-close-btn");
+    const navigation = document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click", () => {
+      navigation.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      navigation.classList.remove("active");
+    });
+  </script>
+
+</body>
+
+</html>
